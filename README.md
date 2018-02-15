@@ -68,7 +68,7 @@ OMDB_KEY=your-consumer-key
   var spotify = new Spotify(keys.spotify);
   var client = new Twitter(keys.twitter);
   ```
-(3) Make it so liri.js can take in one of the following commands:
+5. Make it so liri.js can take in one of the following commands:
 
     * `my-tweets`
 
@@ -79,11 +79,12 @@ OMDB_KEY=your-consumer-key
     * `do-what-it-says`
 
 
-(4)
+(1)
  `node liri.js my-tweets`
 
    * This will show your last 20 tweets and when they were created at in your terminal/bash window.
 
+(2)
  `node liri.js spotify-this-song '<song name here>'`
 
    * This will show the following information about the song in your terminal/bash window
@@ -98,7 +99,7 @@ OMDB_KEY=your-consumer-key
    
    * You will utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
    
-
+(3)
 `node liri.js movie-this '<movie name here>'`
 
    * This will output the following information to your terminal/bash window:
@@ -118,11 +119,13 @@ OMDB_KEY=your-consumer-key
    
    * You'll use the request package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use `trilogy`.
 
+(4)
 `node liri.js do-what-it-says`
    
    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
      
-     * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+   * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
+ 6. In addition to logging the data to your terminal/bash window, output the data to a .txt file called log.txt. Append each command you run to the log.txt file.
 
 
