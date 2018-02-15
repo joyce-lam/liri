@@ -3,8 +3,8 @@ LIRI stands for Language Interpretation and Recognition Interface.
 
 LIRI Bot is a command line node app that takes in parameters and outputs data. 
 
-##Getting Started
-###Prerequisities 
+## Getting Started
+### Prerequisities 
 You need to sign up for keys for the following APIs in order to send requests:
 * [Twitter API](https://developer.twitter.com/)
 * [Spotify API](https://developer.spotify.com/web-api/)
@@ -17,7 +17,7 @@ In order to run this LIRI Bot, you also need to install the following Node packa
 * [DotEnv](https://www.npmjs.com/package/dotenv)
 
 
-###Instructions
+### Instructions
 1. In terminal, go to your project and run `npm init -y` which can initialize a `package.json` file for your project. 
 
 2. Make a Javascript file and put in 
