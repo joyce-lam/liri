@@ -114,9 +114,7 @@ function getTweets() {
 
 
 function spotifySong() {
-
 	naming();
-
 	spotify.search({type: "track", query: name}, function(error, data) {
 		if(!error) {
 			console.log("\nSong name: " + data.tracks.items[0].name,
